@@ -18,6 +18,10 @@ export class Satellite {
 		return true;
    }
 
+// TODO 3a: fix isSpaceDebris check
+displayWarning(): boolean {
+    return this.type.toLowerCase() === 'space debris';
+  }
 }
 
-// TODO 3a: fix isSpaceDebris check
+
